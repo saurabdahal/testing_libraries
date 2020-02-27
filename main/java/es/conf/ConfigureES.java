@@ -20,7 +20,7 @@ public class ConfigureES
     try
     {
      this.client = new PreBuiltTransportClient(this.settings, new Class[0])
-             .addTransportAddress(new TransportAddress(InetAddress.getByName("10.10.5.72"), 9300));
+             .addTransportAddress(new TransportAddress(InetAddress.getByName("10.10.5.30"), 9300));
     } catch (UnknownHostException e) {
       e.printStackTrace();
     }
