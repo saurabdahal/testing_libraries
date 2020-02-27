@@ -20,6 +20,7 @@ public class SparkPhoenixConnection
   
   public SparkSession spark()
   {
+    this.spark.sparkContext().setLogLevel("ERROR");
     return this.spark;
   }
 

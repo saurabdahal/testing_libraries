@@ -1,0 +1,10 @@
+apple,0,10
+ball,1,11
+job,9,19
+cat,2,12
+dog,3,13
+eye,4,14
+goal,6,16
+horse,7,17
+ink,8,18
+fish,5,15
